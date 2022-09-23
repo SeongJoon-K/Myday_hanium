@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* 메인 */
+.nav {
+    position: relative;
+    top: 10.00%;
+    left: 5.00%;
+    height: 140px;
+}
+
+.main-title {
+    float: left;
+    display: inline-block;
+    margin-right: 100px;
+    height: 170px;
+    font-size: 70px;
+
+}
+
+.myday-title-div {
+    position: absolute;
+    display: inline-block;
+    top: 10.00%;
+    left: 5.00%;
+    height: 140px;
+
+}
+.nav-category {
+    display: inline-block;
+
+}
+.nav-intro {
+    float: left;
+    display: inline-block;
+    margin-top:40px;
+    font-weight: 600;
+    font-size: 30px;
+}
